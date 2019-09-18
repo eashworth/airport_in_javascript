@@ -13,4 +13,5 @@ describe('Plane', function() {
     plane.land(airport);
     expect(airport.clearForLanding).toHaveBeenCalledWith(plane);
   } );
+  
 });
