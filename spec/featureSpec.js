@@ -14,7 +14,7 @@ it('planes can be instructed to land at an airport', function(){
   expect(airport.planes()).toContain(plane);
 });
 
-  it('planes can be insructed to take off', function(){
+  it('planes can be instructed to take off', function(){
     plane.land(airport)
     plane.takeOff();
     expect(airport.planes()).not.toContain(plane);
